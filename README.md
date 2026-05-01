@@ -1,38 +1,31 @@
-# 🏰 Tower Defense
+# Tower Defense Game
 
-[![Language](https://img.shields.io/badge/Language-C++-blue.svg)](https://en.wikipedia.org/wiki/C%2B%2B)
-[![Category](https://img.shields.io/badge/Category-Game_Development-success.svg)](#)
+🇬🇧 **English:**
+A custom Tower Defense game developed in Python using the Pygame library. This game challenges players to build strategic defenses using various tower types (Arrow, Cannon, Ice) to stop waves of advancing enemies. It features a complete wave management system, an economy for buying/upgrading towers, pathfinding for enemies, and engaging visual effects.
 
-*A strategic tower defense game implementation / Stratejik kule savunma oyunu uygulaması*
+🇹🇷 **Türkçe:**
+Tamamen Python ve Pygame kütüphanesi kullanılarak geliştirilmiş bir Kule Savunma (Tower Defense) oyunu. Bu oyun, oyuncuların üzerlerine gelen düşman dalgalarını durdurmak için çeşitli kule türlerini (Okçu, Topçu, Buz Kulesi vb.) stratejik olarak inşa etmelerini gerektirir. İçerisinde kapsamlı bir dalga yönetim sistemi, kule satın alma/geliştirme ekonomisi, düşmanlar için yol bulma (pathfinding) algoritması ve görsel efektler barındırır.
 
----
+## Features / Özellikler
 
-## 🇬🇧 English
+- **Tower Types:** Arrow Tower (fast), Cannon Tower (AoE damage), Ice Tower (slows enemies).
+- **Wave Management:** Progressively harder waves with different enemy types.
+- **Economy System:** Earn coins by defeating enemies to buy and upgrade your defenses.
+- **Pathfinding:** Dynamic enemy pathing along predefined or generated routes.
 
-### Overview
-This project constitutes a classic Tower Defense game. It emphasizes real-time strategy, dynamic pathfinding, resource management, and grid-based map building. Players construct defensive structures to prevent waves of enemies from reaching their base.
+## Technologies Used / Kullanılan Teknolojiler
 
-### Key Features
-- Grid-based map mechanics with interactive tiles
-- Multiple tower types with distinct attack traits
-- Pathfinding algorithms allowing enemies to navigate the map dynamically
-- Progressing difficulty via increasingly harder enemy waves
+- **Python 3.x**
+- **Pygame**
 
-### Getting Started
-Pull the codebase and load it into your preferred C++ IDE or compilation environment. Make sure any referenced 2D rendering libraries are accessible to the compiler to successfully launch the game executable.
+## Installation and Execution / Kurulum ve Çalıştırma
 
----
-
-## 🇹🇷 Türkçe
-
-### Genel Bakış
-Bu proje, klasik bir Kule Savunma (Tower Defense) oyununun baştan sona uygulamasıdır. Eş zamanlı strateji, düşman rotası planlama (pathfinding), kaynak yönetimi ve ızgara tabanlı (grid-based) harita inşası üzerine odaklanır. Oyuncuların temel amacı, savunma kuleleri inşa ederek düşman dalgalarının kendi bölgelerine ulaşmasını engellemektir.
-
-### Temel Özellikler
-- Etkileşimli zeminlere sahip ızgara tabanlı harita mimarisi
-- Farklı saldırı yeteneklerine sahip bağımsız kule tipleri
-- Düşmanların haritada ilerlemesini sağlayan rota bulma (pathfinding) algoritmaları
-- Gittikçe zorlaşan düşman dalgaları ile ilerleyen oyun dengesi
-
-### Başlangıç
-Mevcut kod tabanını indirerek tercih ettiğiniz C++ IDE veya derleme ortamına yükleyin. Oyunu grafik arayüzü ile derleyip çalıştırabilmek adına kullanılan 2D render kütüphanelerinin (eğer varsa) bilgisayarınızda yapılandırılmış olması gerekir.
+1. Clone the repository / Depoyu klonlayın.
+2. Install dependencies / Gerekli kütüphaneyi kurun:
+   ```bash
+   pip install pygame
+   ```
+3. Run the game / Oyunu başlatın:
+   ```bash
+   python main.py
+   ```
